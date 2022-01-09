@@ -1,0 +1,39 @@
+body{
+  font-size: 10px;
+  color:#000;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.container{
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.container-content{
+  max-width: 97rem;
+  margin: 0 auto;
+}
+.section-line{
+  border-bottom: 0.1rem solid rgba(208,212,216,.5);
+}
+.title{
+  font-family: Georgia;
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+  text-align: center;
+  color: #4E5665;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.main {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
